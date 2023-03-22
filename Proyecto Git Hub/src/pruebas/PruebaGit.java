@@ -35,12 +35,12 @@ public class PruebaGit {
 		color=color_coche;
 	}
 
-	public String dime_color() {
+	public String devuelve_colores() {
 
 		return "El color del coche es: " + color;
 	}
 
-	public void configura_asientos(String asientos_cuero) {//SETTER
+	public void configurar_Asiento(String asientos_cuero) {//SETTER
 
 		if(asientos_cuero=="si") {
 			this.asientos_cuero=true;
